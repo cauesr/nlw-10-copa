@@ -55,8 +55,9 @@ function createGame(player1, hour, player2) {
         createGame("brazil", "13:00", "switzerland") +
         createGame("portugal", "13:00", "uruguay")
     ) +
-    createCard("25/12", "sexta", 
-        createGame("wales", "07:00", "iran") + 
+    createCard(
+      "25/12", 
+      "sexta", 
+      createGame("wales", "07:00", "iran") + 
         createGame("qatar", "10:00", "senegal") + 
-        createGame("netherlands", "13:00", "ecuador") + 
-        createGame("england", "16:00", "usa"))
+        createGame("netherlands", "13:00", "ecuador"))
